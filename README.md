@@ -1,9 +1,9 @@
 INTRO
 *****************
-OWABF is a password spraying OWA bruteforcer featuring 3 different modes of bruteforcing:
-1. password spraying from common file against all users
-2. password spraying from separate personalized password file for each user
-3. bruteforcing without password spraying
+OWABF is a password spraying OWA bruteforcer featuring 3 different modes of bruteforcing:  
+1. password spraying from common file against all users  
+2. password spraying from separate personalized password file for each user  
+3. bruteforcing without password spraying  
 
 Detection of successful login attempt is accomplished by counting number of cookies
 received from the OWA instead of HTML parsing.
