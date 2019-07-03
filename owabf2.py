@@ -367,7 +367,7 @@ if __name__ == '__main__':
     pwd_folder  = args['pwd_folder']
     threads     = int(args['threads'])
     num_cookies = int(args['number_of_cookies'])
-    attempts    = args['login_attempts']
+    attempts    = int(args['login_attempts'])
     window      = int(args['lockout_window'])
     logfile     = args['log']
     verbose     = args['verbose']
